@@ -17,6 +17,8 @@ export interface CommonShareButtonProps {
     url: string;
     /** Disables click action and adds `disabled` class */
     disabled?: boolean;
+    /** Optional className propagates to element */
+    className?: string;
     /**
      * Style when button is disabled
      * @default { opacity: 0.6 }
